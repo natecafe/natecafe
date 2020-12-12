@@ -1,0 +1,11 @@
+title: Nate Cafe
+description: >
+  Nate Cafe a blog by a Canadian about coffee.
+baseurl: ""
+url: "https://natecafe.github.io"
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+exclude: [bundle, vendor]
+
