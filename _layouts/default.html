@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>{{ page.title }} - Nate Cafe</title>
+  {% if page.canonical -%}
+  <link rel="canonical" href="{{ page.canonical }}"/>
+  {% endif -%}
+  {% if page.description -%}
+  <meta name="description" content="{{ page.description }}" />
+  {% endif -%}
+  {% if page.keywords -%}
+  <meta name="keywords" content="{{ page.keywords }}" />
+  {% endif -%}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, intial-scale=1">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="/sp.css?t={{site.time | date_to_xmlschema}}">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
+</head>
+<body>
+{% unless page.disable_title %}
+<h1>{{ page.title }}</h1>
+{% endunless %}
+
+{{ content }}
+
+</body>
+</html>
