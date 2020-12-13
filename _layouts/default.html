@@ -29,6 +29,18 @@
   </ul>
 </nav>
 
+{% if page.hero %}
+<div class="hero {{ page.hero }}">
+  <div class="hero-text">
+    {{ page.hero_text }}
+  </div>
+</div>
+{% endif %}
+
+{% unless page.disable_title %}
+<h1>{{ page.title }}</h1>
+{% endunless %}
+
 {{ content }}
 
 <script data-goatcounter="https://natecafe.goatcounter.com/count"
