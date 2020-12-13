@@ -16,21 +16,9 @@ Experiments are what make home brewing fun. Here's a few things to try:
 
 ## Immersion
 
-### Aeropress
-
-### Cupping
-
-### French Press
-
-### Siphon
-
-
+Immersion includes cupping, various press methods, and siphons.
 
 ## Percolation
 
-### Chemex
-
-
-
-### V60
+Percolation includes flat bottom, conical, and espresso style brewing methods.
 
