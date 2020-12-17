@@ -3,7 +3,7 @@ title:      Canadian Roasters
 layout:     default
 ---
 
-## Box and Arrows
+## Bows and Arrows
 
 <address>Victoria, BC</address>
 
