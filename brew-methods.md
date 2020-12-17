@@ -14,6 +14,14 @@ Experiments are what make home brewing fun. Here's a few things to try:
  1. ratio variation.
  1. grind size variation.
 
+## Grinding
+
+There are typically 3 ways coffee is ground:
+
+* blade grinder.
+* conical burr grinder.
+* flat burr grinder.
+
 ## Immersion
 
 Immersion includes cupping, various press methods, and siphons.
