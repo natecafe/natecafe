@@ -1,1 +1,48 @@
-https://raw.githubusercontent.com/natecafe/natecafe.github.io/main/_layouts/default.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>{{ page.title }} - Nate Cafe</title>
+  {% if page.canonical -%}
+  <link rel="canonical" href="{{ page.canonical }}"/>
+  {% endif -%}
+  {% if page.description -%}
+  <meta name="description" content="{{ page.description }}" />
+  {% endif -%}
+  {% if page.keywords -%}
+  <meta name="keywords" content="{{ page.keywords }}" />
+  {% endif -%}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, intial-scale=1">
+  <meta name="google-site-verification" content="GHar7vo3iXNZ0F56_3ZCnIanWMWAG9C3uJY21MGdrdM" />
+  <link rel="preload" href="/res/f/0QIvMX1D_JOuMwr7I_FMl_E.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/res/f/0QIvMX1D_JOuMwT7I_FMl_GW8g.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/res/f/JTURjIg1_i6t8kCHKm45_cJD3gfD_vx3rCubqg.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/res/f/JTURjIg1_i6t8kCHKm45_cJD3gnD_vx3rCs.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/sp.css?t={{site.time | date_to_xmlschema}}">
+</head>
+<body>
+
+<nav>
+  <ul>
+    <li><a href="/">☕</a></li>
+  </ul>
+</nav>
+
+{% if page.hero %}
+<div class="hero {{ page.hero }}">
+  <div class="hero-text">
+    {{ page.hero_text }}
+  </div>
+</div>
+{% endif %}
+
+{% unless page.disable_title %}
+<h1>{{ page.title }}</h1>
+{% endunless %}
+
+{{ content }}
+
+<script data-goatcounter="https://natecafe.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
