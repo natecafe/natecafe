@@ -1,6 +1,6 @@
 ---
 title:      Western Hill Community Garden
-layout:     default
+layout:     garden
 ---
 
 Goals:
