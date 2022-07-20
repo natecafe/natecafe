@@ -7,7 +7,7 @@ Goals:
 
 1. Build community.
 2. Share knowledge.
-3. Fund-raise for local schools.
+3. Enjoy yourself.
 
 Requirements:
 
