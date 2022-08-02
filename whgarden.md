@@ -1,5 +1,5 @@
 ---
-title:      Western Hill Community Garden
+title:      Westland Park Community Garden
 layout:     garden
 ---
 
